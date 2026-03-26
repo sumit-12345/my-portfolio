@@ -22,26 +22,34 @@ export default function Home() {
         <div className="relative z-10 grid gap-8 md:grid-cols-2 md:items-center">
           <div className="space-y-5 animate-fadeIn">
             <p className="inline-flex rounded-full bg-blue-100 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-blue-700 dark:bg-blue-900 dark:text-blue-200">
-              Full-stack Java • Cloud-native • AI
+              BACKEND ENGINEER • MICROSERVICES • KUBERNETES • AI-POWERED SYSTEMS
             </p>
             <h1 className="text-4xl font-black leading-tight text-slate-900 dark:text-white sm:text-5xl">
               Sumit Kumar Joshi
             </h1>
             <p className="max-w-xl text-lg text-slate-600 dark:text-slate-300">
-              I help enterprises build scalable Java microservices on Kubernetes with reliable pipelines and secure delivery.
+              I design scalable backend systems using Spring Boot, Microservices, and Kubernetes, and enhance them with AI to build intelligent, high-performance applications in fintech and enterprise domains.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link
-                href="/contact"
+                href="#projects"
                 className="rounded-lg bg-blue-700 px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-blue-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500"
               >
-                Hire me
+                View Projects
               </Link>
+
               <Link
-                href="#projects"
+                href="#system-design"
                 className="rounded-lg border border-blue-200 px-6 py-3 text-sm font-semibold text-blue-700 transition hover:bg-blue-50 dark:border-blue-800 dark:text-blue-300 dark:hover:bg-blue-950"
               >
-                See projects
+                Explore System Design
+              </Link>
+
+              <Link
+                href="#ai"
+                className="rounded-lg border border-purple-200 px-6 py-3 text-sm font-semibold text-purple-700 transition hover:bg-purple-50 dark:border-purple-800 dark:text-purple-300 dark:hover:bg-purple-950"
+              >
+                AI Experiments
               </Link>
             </div>
           </div>
@@ -59,13 +67,27 @@ export default function Home() {
           {[
             { name: "Java", color: "bg-amber-100 text-amber-800" },
             { name: "Spring Boot", color: "bg-green-100 text-green-800" },
+            { name: "Microservices", color: "bg-emerald-100 text-emerald-800" },
+            { name: "System Design", color: "bg-purple-100 text-purple-800" },
+
             { name: "Kubernetes", color: "bg-blue-100 text-blue-800" },
             { name: "Docker", color: "bg-sky-100 text-sky-800" },
-            { name: "CI/CD", color: "bg-violet-100 text-violet-800" },
-            { name: "Terraform", color: "bg-cyan-100 text-cyan-800" },
             { name: "AWS", color: "bg-orange-100 text-orange-900" },
+            { name: "Terraform", color: "bg-cyan-100 text-cyan-800" },
+            { name: "CI/CD", color: "bg-violet-100 text-violet-800" },
+
+            { name: "Kafka", color: "bg-gray-200 text-gray-800" },
+            { name: "WebFlux", color: "bg-lime-100 text-lime-800" },
+            { name: "REST APIs", color: "bg-teal-100 text-teal-800" },
+
+            { name: "Angular", color: "bg-red-100 text-red-800" },
             { name: "TypeScript", color: "bg-indigo-100 text-indigo-800" },
+
             { name: "AI/ML", color: "bg-pink-100 text-pink-800" },
+            { name: "LLMs", color: "bg-fuchsia-100 text-fuchsia-800" },
+            { name: "AI Integrations", color: "bg-rose-100 text-rose-800" },
+            { name: "Data Structures", color: "bg-amber-100 text-amber-800" },
+            { name: "Algorithms", color: "bg-green-100 text-green-800" },
           ].map((skill) => (
             <div
               key={skill.name}
@@ -141,6 +163,7 @@ export default function Home() {
             <h3 className="text-lg font-semibold">Get in touch</h3>
             <ul className="mt-3 space-y-2 text-slate-600 dark:text-slate-300">
               <li>Email: <a href="mailto:sumitku.joshi@gmail.com" className="text-blue-600 hover:underline">sumitku.joshi@gmail.com</a></li>
+              <li>Phone: <a href="tel:+91 9611277653" className="text-blue-600 hover:underline">+91 9611277653</a></li>
               <li>GitHub: <a href="https://github.com/sumit-12345" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">Sumit Kumar Joshi</a></li>
               <li>LinkedIn: <a href="https://www.linkedin.com/in/sumitjoshi94/" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">Sumit Kumar Joshi</a></li>
             </ul>

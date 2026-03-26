@@ -16,6 +16,9 @@ export default function ContactPage() {
               Email: <a href="mailto:sumitku.joshi@gmail.com" className="text-blue-600 hover:underline">sumitku.joshi@gmail.com</a>
             </p>
             <p className="text-slate-600 dark:text-slate-300">
+              Phone: <a href="tel:+91 9611277653" className="text-blue-600 hover:underline">+91 9611277653</a>
+            </p>
+            <p className="text-slate-600 dark:text-slate-300">
               GitHub: <a href="https://github.com/sumit-12345" target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">Sumit Kumar Joshi</a>
             </p>
             <p className="text-slate-600 dark:text-slate-300">
