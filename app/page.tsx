@@ -22,13 +22,13 @@ export default function Home() {
         <div className="relative z-10 grid gap-8 md:grid-cols-2 md:items-center">
           <div className="space-y-5 animate-fadeIn">
             <p className="inline-flex rounded-full bg-blue-100 px-4 py-1 text-xs font-semibold uppercase tracking-wide text-blue-700 dark:bg-blue-900 dark:text-blue-200">
-              BACKEND ENGINEER • MICROSERVICES • KUBERNETES • AI-POWERED SYSTEMS
+              FULLSTACK ENGINEER • MICROSERVICES • KUBERNETES • AI-POWERED SYSTEMS
             </p>
             <h1 className="text-4xl font-black leading-tight text-slate-900 dark:text-white sm:text-5xl">
               Sumit Kumar Joshi
             </h1>
             <p className="max-w-xl text-lg text-slate-600 dark:text-slate-300">
-              I design scalable backend systems using Spring Boot, Microservices, and Kubernetes, and enhance them with AI to build intelligent, high-performance applications in fintech and enterprise domains.
+              Building scalable microservices and system design solutions with Spring Boot, Angular, and Kubernetes, leveraging AI concepts like LLMs and intelligent automation.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link

@@ -21,7 +21,7 @@ export default function AboutPage() {
               Experience includes building and deploying cloud-native platforms at scale, implementing CI/CD pipelines and automation, and integrating AI-based tools to accelerate software delivery.
             </p>
             <div className="flex flex-wrap gap-3">
-              <a href="/resume.doc" target="_blank" rel="noreferrer" className="rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700">
+              <a href="/resume.docx" target="_blank" rel="noreferrer" className="rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700">
                 Download Resume
               </a>
               <a href="/contact" className="rounded-lg border border-blue-200 px-5 py-2.5 text-sm font-semibold text-blue-700 transition hover:bg-blue-50 dark:border-blue-800 dark:text-blue-300 dark:hover:bg-blue-950">
