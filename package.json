@@ -11,10 +11,11 @@
     "sitemap": "npx next-sitemap"
   },
   "dependencies": {
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^1.17.0",
     "next": "16.2.1",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "gray-matter": "^4.0.3",
     "remark": "^14.0.2",
     "remark-html": "^15.0.0"
   },
